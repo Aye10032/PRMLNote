@@ -11,3 +11,8 @@
 * [2.1 模式识别与机器学习的目标](di-er-zhang-sheng-cheng-shi-fen-lei-qi/2.1-mo-shi-shi-bie-yu-ji-qi-xue-xi-de-mu-biao.md)
 * [2.2 正态分布模式的贝叶斯分类器](di-er-zhang-sheng-cheng-shi-fen-lei-qi/2.2-zheng-tai-fen-bu-mo-shi-de-bei-ye-si-fen-lei-qi.md)
 * [2.3 均值向量和协方差矩阵的参数估计](di-er-zhang-sheng-cheng-shi-fen-lei-qi/2.3-jun-zhi-xiang-liang-he-xie-fang-cha-ju-zhen-de-can-shu-gu-ji.md)
+
+## 第三章 判别式分类器
+
+* [3.1 判别式分类器与生成式分类器](di-san-zhang-pan-bie-shi-fen-lei-qi/3.1-pan-bie-shi-fen-lei-qi-yu-sheng-cheng-shi-fen-lei-qi.md)
+* [3.2 线性判别函数](di-san-zhang-pan-bie-shi-fen-lei-qi/3.2-xian-xing-pan-bie-han-shu.md)
