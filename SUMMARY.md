@@ -17,5 +17,4 @@
 * [3.1 判别式分类器与生成式分类器](di-san-zhang-pan-bie-shi-fen-lei-qi/3.1-pan-bie-shi-fen-lei-qi-yu-sheng-cheng-shi-fen-lei-qi.md)
 * [3.2 线性判别函数](di-san-zhang-pan-bie-shi-fen-lei-qi/3.2-xian-xing-pan-bie-han-shu.md)
 * [3.3 广义线性判别函数](di-san-zhang-pan-bie-shi-fen-lei-qi/3.3-guang-yi-xian-xing-pan-bie-han-shu.md)
-* [3.4 分段线性判别函数](di-san-zhang-pan-bie-shi-fen-lei-qi/3.4-fen-duan-xian-xing-pan-bie-han-shu.md)
-* [3.5 Fisher线性判别](di-san-zhang-pan-bie-shi-fen-lei-qi/3.5-fisher-xian-xing-pan-bie.md)
+* [3.4 Fisher线性判别](di-san-zhang-pan-bie-shi-fen-lei-qi/3.4-fisher-xian-xing-pan-bie.md)
