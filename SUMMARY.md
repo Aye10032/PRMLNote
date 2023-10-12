@@ -18,3 +18,7 @@
 * [3.2 线性判别函数](di-san-zhang-pan-bie-shi-fen-lei-qi/3.2-xian-xing-pan-bie-han-shu.md)
 * [3.3 广义线性判别函数](di-san-zhang-pan-bie-shi-fen-lei-qi/3.3-guang-yi-xian-xing-pan-bie-han-shu.md)
 * [3.4 Fisher线性判别](di-san-zhang-pan-bie-shi-fen-lei-qi/3.4-fisher-xian-xing-pan-bie.md)
+* [3.5 感知器算法](di-san-zhang-pan-bie-shi-fen-lei-qi/3.5-gan-zhi-qi-suan-fa.md)
+* [3.6 可训练的确定性分类器的迭代算法](di-san-zhang-pan-bie-shi-fen-lei-qi/3.6-ke-xun-lian-de-que-ding-xing-fen-lei-qi-de-die-dai-suan-fa.md)
+* [3.7 势函数法](di-san-zhang-pan-bie-shi-fen-lei-qi/3.7-shi-han-shu-fa.md)
+* [3.8 决策树](di-san-zhang-pan-bie-shi-fen-lei-qi/3.8-jue-ce-shu.md)
