@@ -28,3 +28,14 @@
 * [4.1 模式类别可分性的测度](di-si-zhang-te-zheng-xuan-ze-he-ti-qu/4.1-mo-shi-lei-bie-ke-fen-xing-de-ce-du.md)
 * [4.2 特征选择](di-si-zhang-te-zheng-xuan-ze-he-ti-qu/4.2-te-zheng-xuan-ze.md)
 * [4.3 离散K-L变换](di-si-zhang-te-zheng-xuan-ze-he-ti-qu/4.3-li-san-kl-bian-huan.md)
+
+## 第五章 统计机器学习
+
+* [5.1 机器学习简介](di-wu-zhang-tong-ji-ji-qi-xue-xi/5.1-ji-qi-xue-xi-jian-jie.md)
+* [5.2 统计机器学习](di-wu-zhang-tong-ji-ji-qi-xue-xi/5.2-tong-ji-ji-qi-xue-xi.md)
+
+## 第六章 有监督学习
+
+* [6.1 有监督学习](di-liu-zhang-you-jian-du-xue-xi/6.1-you-jian-du-xue-xi.md)
+* [6.2 回归任务](di-liu-zhang-you-jian-du-xue-xi/6.2-hui-gui-ren-wu.md)
+* [6.3 分类问题](di-liu-zhang-you-jian-du-xue-xi/6.3-fen-lei-wen-ti.md)
