@@ -39,3 +39,25 @@
 * [6.1 有监督学习](di-liu-zhang-you-jian-du-xue-xi/6.1-you-jian-du-xue-xi.md)
 * [6.2 回归任务](di-liu-zhang-you-jian-du-xue-xi/6.2-hui-gui-ren-wu.md)
 * [6.3 分类问题](di-liu-zhang-you-jian-du-xue-xi/6.3-fen-lei-wen-ti.md)
+
+## 第七章 支持向量机
+
+* [7.1 线性支持向量机](di-qi-zhang-zhi-chi-xiang-liang-ji/7.1-xian-xing-zhi-chi-xiang-liang-ji.md)
+* [7.2 核支持向量机](di-qi-zhang-zhi-chi-xiang-liang-ji/7.2-he-zhi-chi-xiang-liang-ji.md)
+* [7.3 序列最小优化算法](di-qi-zhang-zhi-chi-xiang-liang-ji/7.3-xu-lie-zui-xiao-you-hua-suan-fa.md)
+
+## 第八章 聚类
+
+* [8.1 基本概念](di-ba-zhang-ju-lei/8.1-ji-ben-gai-nian.md)
+* [8.2 经典聚类算法](di-ba-zhang-ju-lei/8.2-jing-dian-ju-lei-suan-fa.md)
+
+## 第九章 降维
+
+* [9.1 基本概念](di-jiu-zhang-jiang-wei/9.1-ji-ben-gai-nian.md)
+* [9.2 维度选择](di-jiu-zhang-jiang-wei/9.2-wei-du-xuan-ze.md)
+* [9.3 维度抽取](di-jiu-zhang-jiang-wei/9.3-wei-du-chou-qu.md)
+
+## 第十章 半监督学习
+
+* [10.1 基本概念](di-shi-zhang-ban-jian-du-xue-xi/10.1-ji-ben-gai-nian.md)
+* [10.2 半监督学习算法](di-shi-zhang-ban-jian-du-xue-xi/10.2-ban-jian-du-xue-xi-suan-fa.md)
