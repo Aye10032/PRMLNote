@@ -65,7 +65,6 @@
 ## 第十一章 概率图模型
 
 * [11.1 PGM简介](di-shi-yi-zhang-gai-shuai-tu-mo-xing/11.1-pgm-jian-jie.md)
-* [11.2 两类概率图模型](di-shi-yi-zhang-gai-shuai-tu-mo-xing/11.2-liang-lei-gai-shuai-tu-mo-xing.md)
 * [11.2 有向图模型（贝叶斯网络）](di-shi-yi-zhang-gai-shuai-tu-mo-xing/11.2-you-xiang-tu-mo-xing-bei-ye-si-wang-luo.md)
 * [11.3 无向图模型（马尔科夫随机场）](di-shi-yi-zhang-gai-shuai-tu-mo-xing/11.3-wu-xiang-tu-mo-xing-ma-er-ke-fu-sui-ji-chang.md)
 * [11.4 学习和推断](di-shi-yi-zhang-gai-shuai-tu-mo-xing/11.3-xue-xi-he-tui-duan.md)
