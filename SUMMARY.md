@@ -61,3 +61,16 @@
 
 * [10.1 基本概念](di-shi-zhang-ban-jian-du-xue-xi/10.1-ji-ben-gai-nian.md)
 * [10.2 半监督学习算法](di-shi-zhang-ban-jian-du-xue-xi/10.2-ban-jian-du-xue-xi-suan-fa.md)
+
+## 第十一章 概率图模型
+
+* [11.1 PGM简介](di-shi-yi-zhang-gai-shuai-tu-mo-xing/11.1-pgm-jian-jie.md)
+* [11.2 两类概率图模型](di-shi-yi-zhang-gai-shuai-tu-mo-xing/11.2-liang-lei-gai-shuai-tu-mo-xing.md)
+* [11.3 学习和推断](di-shi-yi-zhang-gai-shuai-tu-mo-xing/11.3-xue-xi-he-tui-duan.md)
+* [11.4 典型概率图模型](di-shi-yi-zhang-gai-shuai-tu-mo-xing/11.4-dian-xing-gai-shuai-tu-mo-xing.md)
+
+## 第十二章 集成学习
+
+* [12.1 简介](di-shi-er-zhang-ji-cheng-xue-xi/12.1-jian-jie.md)
+* [12.2 Bagging](di-shi-er-zhang-ji-cheng-xue-xi/12.2-bagging.md)
+* [12.3 Boosting](di-shi-er-zhang-ji-cheng-xue-xi/12.3-boosting.md)
