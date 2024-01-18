@@ -48,17 +48,17 @@ $$
 
 #### Q1
 
-![](D:\program\python\PRMLClass\image\判别函数1.png)
+![](../.gitbook/assets/判别函数1.png)
 
 #### Q2
 
-![](D:\program\python\PRMLClass\image\判别函数2.png)
+![](../.gitbook/assets/判别函数2.png)
 
 #### Q3
 
 $$
 \begin{align}
-\because\ &d_1(x)=-x_1
+\because\ &d_1(x)=-x_1 \nonumber
 \\
 & d_2(x)=x_1+x_2-1
 \\
@@ -73,7 +73,7 @@ $$
 \end{align}
 $$
 
-![](D:\program\python\PRMLClass\image\判别函数3.png)
+![](../.gitbook/assets/判别函数3.png)
 
 
 
@@ -122,7 +122,7 @@ $$
 首先讲属于$$\omega_2$$的样本乘以-1，写成增广形式：
 $$
 \begin{align}
-&x_1 = (0\ 0\ 0\ 1)^T
+&x_1 = (0\ 0\ 0\ 1)^T \nonumber
 \\
 &x_2 = (1\ 0\ 0\ 1)^T
 \\
