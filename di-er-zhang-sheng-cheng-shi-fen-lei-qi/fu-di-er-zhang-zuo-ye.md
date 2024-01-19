@@ -27,7 +27,7 @@ $$
 得：
 $$
 \begin{align}
-&m_1 =\frac14\sum_{j=1}^4x_{1j}= (1\ 1)^T
+&m_1 =\frac14\sum_{j=1}^4x_{1j}= (1\ 1)^T \nonumber
 \\
 &m_2 =\frac14\sum_{j=1}^4x_{2j}= (5\ 5)^T
 \\

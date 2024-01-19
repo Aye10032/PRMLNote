@@ -25,7 +25,7 @@ $$
 根据题目中高斯朴素贝叶斯分类器的假设，有：
 $$
 \begin{align}
-P(Y=1\mid X) & \frac{P(Y=1)P(X\mid Y=1)}{P(Y=1)P(X\mid Y=1)+P(Y=0)P(X\mid Y=0)}\\
+P(Y=1\mid X) & \frac{P(Y=1)P(X\mid Y=1)}{P(Y=1)P(X\mid Y=1)+P(Y=0)P(X\mid Y=0)}\\ \nonumber
 \\
 &=\frac1{1+\frac{P(Y=0)P(X\mid Y=0)}{P(Y=1)p(X \mid Y=1)}}\\
 \\
@@ -35,7 +35,7 @@ $$
 由给定的Y，x条件独立性假设，可得：
 $$
 \begin{align}
-P(Y=1\mid X) &=\frac1{1+\exp\left(\ln\frac{P(Y=0)}{P(Y=1)}+\ln\left(\prod_i\frac{P(x_i\mid Y=0)}{P(x_i \mid Y=1)}\right)\right)}\\
+P(Y=1\mid X) &=\frac1{1+\exp\left(\ln\frac{P(Y=0)}{P(Y=1)}+\ln\left(\prod_i\frac{P(x_i\mid Y=0)}{P(x_i \mid Y=1)}\right)\right)}\\ \nonumber
 \\
 &=\frac1{1+\exp\left(\ln\frac{P(Y=0)}{P(Y=1)}+\sum_i\frac{P(x_i\mid Y=0)}{P(x_i \mid Y=1)}\right)}
 \end{align}
@@ -91,7 +91,7 @@ $$
 $$
 \begin{align}
 \log\left(\frac{P(y=0|x)}{P(y=1|x)}\right) &= \log\left(\frac{1 - \pi}{\pi}\right) + \sum_{i=1}^{D} \log\left(\frac{N(x_i|\mu_{0i}, \sigma_i)}{N(x_i|\mu_{1i}, \sigma_i)}\right)
-\\
+\\ \nonumber
 &= \log\left(\frac{1 - \pi}{\pi}\right) + \sum_{i=1}^{D} \left[\log\left(\frac{1}{\sqrt{2\pi}\sigma_i}\right) - \frac{(x_i-\mu_{0i})^2}{2\sigma_i^2} + \frac{(x_i-\mu_{1i})^2}{2\sigma_i^2}\right]
 \\
 &= \log\left(\frac{1 - \pi}{\pi}\right) + \sum_{i=1}^{D} \left[\frac{\mu_{1i}-\mu_{0i}}{\sigma_i^2}x_i - \frac{\mu_{1i}^2-\mu_{0i}^2}{2\sigma_i^2}\right] + C
@@ -163,7 +163,7 @@ $$
 
 $$
 \begin{align}
-P(y=1|x) = \frac{P(x|y=1)P(y=1)}{P(x)} = \frac{P(x|y=1)P(y=1)}{P(x|y=1)P(y=1) + P(x|y=0)P(y=0)}
+P(y=1|x) = \frac{P(x|y=1)P(y=1)}{P(x)} = \frac{P(x|y=1)P(y=1)}{P(x|y=1)P(y=1) + P(x|y=0)P(y=0)} \nonumber
 \\
 P(y=0|x) = \frac{P(x|y=0)P(y=0)}{P(x)} = \frac{P(x|y=0)P(y=0)}{P(x|y=1)P(y=1) + P(x|y=0)P(y=0)}
 \end{align}
@@ -192,7 +192,7 @@ $$
 利用表格中的数据训练朴素贝叶斯分类器
 $$
 \begin{align}
-x_1 &= \{1,2,3\}
+x_1 &= \{1,2,3\} \nonumber
 \\
 x_2 &= \{S,M,L,N\}
 \\

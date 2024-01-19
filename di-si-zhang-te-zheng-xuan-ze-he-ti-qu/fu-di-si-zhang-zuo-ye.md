@@ -7,7 +7,7 @@
 设有如下三类模式样本集$$\omega_1$$，$$\omega_2$$和$$\omega_3$$，其先验概率相等，求$$S_w$$和$$S_b$$
 $$
 \begin{align}
-&\omega_1: \{(1\ 0)^T,(2\ 0)^T,(1\ 1)^T\}\\
+&\omega_1: \{(1\ 0)^T,(2\ 0)^T,(1\ 1)^T\}\\ \nonumber
 &\omega_2: \{(-1\ 0)^T,(0\ 1)^T,(-1\ 1)^T\}\\
 &\omega_3: \{(-1\ -1)^T,(0\ -1)^T,(0\ -2)^T\}
 \end{align}
@@ -34,7 +34,7 @@ $$
 类内离散度矩阵：
 $$
 \begin{align}
-S_w &= \sum_{i=1}^3 P(\omega_i)E\{(\boldsymbol x-m_i)(\boldsymbol x-m_i)^T\mid \omega_i\}\\
+S_w &= \sum_{i=1}^3 P(\omega_i)E\{(\boldsymbol x-m_i)(\boldsymbol x-m_i)^T\mid \omega_i\}\\ \nonumber
 \\
 &=\sum_{i=1}^3P(\omega_i)\frac1N\sum_{k=1}^{N_i}(x_i^k-m_i)(k_i^k-m_i)^T\\
 \\
@@ -126,7 +126,7 @@ $$
 求总体均值
 $$
 \begin{align}
-\boldsymbol m &= E\{\boldsymbol x\}\\
+\boldsymbol m &= E\{\boldsymbol x\}\\ \nonumber
 &=0.5\times\frac14\sum_{j=1}^4x_{1j} + 0.5\times\frac14\sum_{j=1}^4x_{2j}\\
 &=\left(\frac12\ \frac12\ \frac12\right)^T
 \end{align}
@@ -140,7 +140,7 @@ $$
 求协方差矩阵：
 $$
 \begin{align}
-R &= \sum_{i=1}^2P(\omega_i)E(\boldsymbol z_i\ \boldsymbol z_i^T)\\
+R &= \sum_{i=1}^2P(\omega_i)E(\boldsymbol z_i\ \boldsymbol z_i^T)\\ \nonumber
 \\
 &=\sum_{i=1}^2P(\omega_i)\frac1N\sum_{j=1}^N(z_{ij}\ z_{ij}^T)\\
 \\
