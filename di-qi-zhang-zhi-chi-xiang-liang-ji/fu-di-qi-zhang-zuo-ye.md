@@ -29,7 +29,7 @@ $$
 &\sum_{i=1}^N \alpha_i y^i = 0
 \end{align}
 $$
-并求的其最优解$\boldsymbol{\alpha}^*=(\alpha_1^*,\dots,\alpha_l^*)$
+并求的其最优解$$\boldsymbol{\alpha}^*=(\alpha_1^*,\dots,\alpha_l^*)$$
 
 则得到原问题的最优解：
 $$
