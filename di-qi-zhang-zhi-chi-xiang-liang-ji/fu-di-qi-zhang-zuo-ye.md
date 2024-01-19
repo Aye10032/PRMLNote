@@ -22,7 +22,7 @@ $$
 首先，对偶问题为：
 $$
 \begin{align}
-\max\limits_{\alpha} &\sum_{i=1}^N \alpha_i - \frac{1}{2}\sum_{i,j=1}^N y^i y^j\alpha_i\alpha_j (\mathbf{x}^i)^T\mathbf{x}^j
+\max\limits_{\alpha} &\sum_{i=1}^N \alpha_i - \frac{1}{2}\sum_{i,j=1}^N y^i y^j\alpha_i\alpha_j (\mathbf{x}^i)^T\mathbf{x}^j\nonumber
 \\
 \operatorname{s.t.}&\ \alpha_i\geq0,i=1,\dots,N
 \\
@@ -34,7 +34,7 @@ $$
 则得到原问题的最优解：
 $$
 \begin{align}
-&\mathbf{w}^*=\sum_{i=1}^N\alpha_i^*y^i\mathbf{x}^i
+&\mathbf{w}^*=\sum_{i=1}^N\alpha_i^*y^i\mathbf{x}^i \nonumber
 \\
 &b^* = y^j-\sum_{i=1}^N\alpha_i^*y^i(\mathbf{x}^i)^T\mathbf{x}^j
 \\
@@ -52,7 +52,7 @@ $$
 
 $$
 \begin{align} 
-\mathbf{x}^1 &= [3\ 3] \\ 
+\mathbf{x}^1 &= [3\ 3] \\ \nonumber
 \mathbf{x}^2 &= [4\ 3] \\ 
 \mathbf{x}^3 &= [1\ 1] \\ 
 y^1 &= 1 \\ y^2 &= 1 \\ y^3 &= -1 
@@ -72,16 +72,15 @@ $$
 
 目标函数为：
 $$
-\begin{align} 
-\max\limits_{\alpha} &\sum_{i=1}^N \alpha_i - \frac{1}{2}\sum_{i,j=1}^N y^i y^j\alpha_i\alpha_j k_{ij} 
-\end{align}
+\max\limits_{\alpha} \quad\sum_{i=1}^N \alpha_i - \frac{1}{2}\sum_{i,j=1}^N y^i y^j\alpha_i\alpha_j k_{ij} 
 $$
 
 约束条件为：
 
 $$
 \begin{align} 
-\alpha_i \geq 0, i=1,\dots,N \\ \sum_{i=1}^N \alpha_i y^i = 0 
+&\alpha_i \geq 0, i=1,\dots,N \\ \nonumber
+&\sum_{i=1}^N \alpha_i y^i = 0 
 \end{align}
 $$
 
@@ -184,24 +183,26 @@ $$
 首先，有：
 $$
 \begin{align}
-K(x,z) &= \exp \left(-\frac{\Vert x-z \Vert^2}{2\sigma^2}\right)
+K(x,z) &= \exp \left(-\frac{\Vert x-z \Vert^2}{2\sigma^2}\right) \nonumber
 \\
 &= \exp \left(-\frac{x^2+z^2-2xz}{2\sigma^2}\right)
 \\
-&= \exp \left(-\frac{x^2+z^2}{2\sigma^2}\right) \exp \left(\frac{xz}{\sigma^2}\right) \tag{1}
+&= \exp \left(-\frac{x^2+z^2}{2\sigma^2}\right) \exp \left(\frac{xz}{\sigma^2}\right)
 \end{align}
 $$
+记为式（1）
+
 由于函数$$e^x$$的幂级数展开式为：
 $$
 \begin{align}
-e^x &= \sum_{i=0}^\infin\frac{x^n}{n!}\\
+e^x &= \sum_{i=0}^\infin\frac{x^n}{n!}\\ \nonumber
 &= 1 + x + \frac{x^2}{2!} + \dots + \frac{x^n}{n!} + R_n
 \end{align}
 $$
 因此，可以有：
 $$
 \begin{align}
-\exp \left(\frac{xz}{\sigma^2}\right) &= 1 + \left(\frac{xz}{\sigma^2}\right) + \frac{\left(\frac{xz}{\sigma^2}\right)^2}{2!} + \dots + \frac{(\frac{xz}{\sigma^2})^n}{n!} + \dots
+\exp \left(\frac{xz}{\sigma^2}\right) &= 1 + \left(\frac{xz}{\sigma^2}\right) + \frac{\left(\frac{xz}{\sigma^2}\right)^2}{2!} + \dots + \frac{(\frac{xz}{\sigma^2})^n}{n!} + \dots \nonumber
 \\
 &=1 + \frac1{\sigma^2}\cdot\frac{xz}{1!} + \left(\frac1{\sigma^2}\right)^2\cdot\frac{(xz)^2}{2!} + \dots + \left(\frac1{\sigma^2}\right)^n\cdot\frac{(xz)^n}{n!} + \dots
 \\
@@ -211,7 +212,7 @@ $$
 将其带回（1）式，有：
 $$
 \begin{align}
-K(x,z) &= \exp \left(-\frac{x^2+z^2}{2\sigma^2}\right)\cdot\left(1\cdot1 + \frac1{1!}\frac x\sigma\cdot\frac z\sigma + \frac1{2!}\frac{x^2}{\sigma^2}\cdot\frac{z^2}{\sigma^2} +\dots+\frac1{n!}\frac{x^n}{\sigma^n}\cdot\frac{z^n}{\sigma^n} + \dots\right)
+K(x,z) &= \exp \left(-\frac{x^2+z^2}{2\sigma^2}\right)\cdot\left(1\cdot1 + \frac1{1!}\frac x\sigma\cdot\frac z\sigma + \frac1{2!}\frac{x^2}{\sigma^2}\cdot\frac{z^2}{\sigma^2} +\dots+\frac1{n!}\frac{x^n}{\sigma^n}\cdot\frac{z^n}{\sigma^n} + \dots\right) \nonumber
 \\
 &= \exp \left(-\frac{x^2}{2\sigma^2}\right)\cdot\exp \left(-\frac{z^2}{2\sigma^2}\right)\cdot\left(1\cdot1 + \frac1{1!}\frac x\sigma\cdot\frac z\sigma + \frac1{2!}\frac{x^2}{\sigma^2}\cdot\frac{z^2}{\sigma^2} +\dots+\frac1{n!}\frac{x^n}{\sigma^n}\cdot\frac{z^n}{\sigma^n} + \dots\right)
 \\

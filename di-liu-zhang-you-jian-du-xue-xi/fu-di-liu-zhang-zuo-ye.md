@@ -6,9 +6,9 @@
 
 考虑一种特定类别的高斯朴素贝叶斯分类器。其中：
 
-- y是一个布尔变量，服从伯努利分布，参数为$\pi=P(y=1)$，因此$P(Y=1)=1-\pi$
-- $x=\left[x_1,\dots,x_D\right]^T$，其中每个特征$x_i$是一个连续随机变量。对于每个$x_i$，$P(x_i\vert y=k)$是一个高斯分布$N(\mu_{ik},\sigma_i)$，其中$\sigma_i$是高斯分布的标准差，不依赖于$k$
-- 对于所有$i\neq j$，给定$y$，$x_i$和$x_j$是条件独立的（即所谓“朴素”分类器）
+- y是一个布尔变量，服从伯努利分布，参数为$$\pi=P(y=1)$$，因此$$P(Y=1)=1-\pi$$
+- $$x=\left[x_1,\dots,x_D\right]^T$$，其中每个特征$$x_i$$是一个连续随机变量。对于每个$$x_i$$，$$P(x_i\vert y=k)$$是一个高斯分布$$N(\mu_{ik},\sigma_i)$$，其中$$\sigma_i$$是高斯分布的标准差，不依赖于$$k$$
+- 对于所有$$i\neq j$$，给定$$y$$，$$x_i$$和$$x_j$$是条件独立的（即所谓“朴素”分类器）
 
 问：证明上述这种高斯朴素贝叶斯判别器与逻辑回归得到的分类器形式是一致的
 
@@ -65,17 +65,17 @@ $P(y=0|x) = \dfrac{P(x|y=0)P(y=0)}{P(x)} P(y=1|x) = \dfrac{P(x|y=1)P(y=1)}{P(x)}
 由于是二元分类，所以$P(y=1) = 1 - P(y=0)$。因此有：
 
 $$
-\dfrac{P(y=0|x)}{P(y=1|x)} = \dfrac{P(x|y=0)}{P(x|y=1)} \times \dfrac{1 - \pi}{\pi} \tag{1}
+\dfrac{P(y=0|x)}{P(y=1|x)} = \dfrac{P(x|y=0)}{P(x|y=1)} \times \dfrac{1 - \pi}{\pi}
 $$
 
-其中，$\pi = P(y=1)$是类别为1的概率。
+将上式记作式1，其中，$\pi = P(y=1)$是类别为1的概率。
 
 由于$P(x\vert y=k)$是一个高斯分布，则对于$P(x_i\vert y=0)$和$P(x_i\vert y=1)$分别记作$N(\mu_{0k}, \sigma_i)$和$N(\mu_{1k}, \sigma_i)$，进而有联合概率分布：
 $$
 \begin{align}
-P(x_i|y=0) = P(x_1, ..., x_D|y=0) = \prod_{i=1}^{D} P(x_i|y=0) = \prod_{i=1}^{D} N(x_i|\mu_{0i}, \sigma_i) \tag{2}
+P(x_i|y=0) = P(x_1, ..., x_D|y=0) = \prod_{i=1}^{D} P(x_i|y=0) = \prod_{i=1}^{D} N(x_i|\mu_{0i}, \sigma_i) \nonumber
 \\
-P(x_i|y=1) = P(x_1, ..., x_D|y=1) = \prod_{i=1}^{D} P(x_i|y=1) = \prod_{i=1}^{D} N(x_i|\mu_{1i}, \sigma_i) \tag{3}
+P(x_i|y=1) = P(x_1, ..., x_D|y=1) = \prod_{i=1}^{D} P(x_i|y=1) = \prod_{i=1}^{D} N(x_i|\mu_{1i}, \sigma_i)
 \end{align}
 $$
 

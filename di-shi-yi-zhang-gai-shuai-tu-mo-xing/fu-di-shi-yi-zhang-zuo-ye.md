@@ -14,7 +14,7 @@
 
 ## 答
 
-**C**：状态转移矩阵代表着从每一种状态在下一时刻向另一状态转移的概率，因此大小为$20^2=400$
+**C**：状态转移矩阵代表着从每一种状态在下一时刻向另一状态转移的概率，因此大小为$$20^2=400$$
 
 
 
@@ -26,9 +26,9 @@
 
 ![](../.gitbook/assets/HMM1.png)
 
-- A、Season$\perp$Chills $\mid$ Flu
-- B、Season$\perp$Chills
-- C、Season$\perp$Headache $\mid$ Flu
+- A、Season$$\perp$$Chills $$\mid$$ Flu
+- B、Season$$\perp$$Chills
+- C、Season$$\perp$$Headache $$\mid$$ Flu
 
 
 
@@ -88,7 +88,7 @@
 
 （1）请给出HMM模型
 
-（2）请给出水果序列$x=(a,a,o,o,o)$对应的最佳盒子序列
+（2）请给出水果序列$$x=(a,a,o,o,o)$$对应的最佳盒子序列
 
 
 
