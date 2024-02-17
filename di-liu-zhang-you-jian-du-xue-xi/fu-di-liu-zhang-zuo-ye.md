@@ -41,6 +41,36 @@ P(Y=1\mid X) &=\frac1{1+\exp\left(\ln\frac{P(Y=0)}{P(Y=1)}+\ln\left(\prod_i\frac
 \end{align}
 $$
 
+由于$$P_i(x_i\mid Y=y_k)$$服从高斯分布$$\mathcal N(\mu_{ik},\sigma_i)$$，可得：
+$$
+\begin{align}
+\sum_i \ln\frac{P(x_i\mid Y=0)}{P(x_i\mid Y=1)} &= \sum_i\ln\frac{\frac1{\sqrt{2\pi\sigma_i^2}}\exp\left(\frac{-(x_i-\mu_{i0})^2}{2\sigma_i^2}\right)}{\frac1{\sqrt{2\pi\sigma_i^2}}\exp\left(\frac{-(x_i-\mu_{i1})^2}{2\sigma_i^2}\right)}\nonumber\\
+\\
+&=\sum_i\ln\exp\left(\frac{\left(x_i-\mu_{i1})^2-(x_i-\mu_{i0}\right)^2}{2\sigma_i^2}\right)\\
+\\
+&=\sum_i\frac{\left(x_i-\mu_{i1})^2-(x_i-\mu_{i0}\right)^2}{2\sigma_i^2}\\
+\\
+&=\sum_i\left(\frac{\mu_{i0}-\mu_{i1}}{\sigma_i^2}x_i+\frac{\mu_{i1}^2-\mu_{i0}^2}{2\sigma_0^2}\right)
+\end{align}
+$$
+则：
+$$
+P(Y=1\mid X)=\frac1{1+\exp\left(\ln \frac{1-\pi}{\pi}+\sum_i\left(\frac{\mu_{i0}-\mu_{i1}}{\sigma_i^2}x_i+\frac{\mu_{i1}^2-\mu_{i0}^2}{2\sigma_0^2}\right)\right)}
+$$
+等价于：
+$$
+P(Y=1\mid X) = \frac1{1+\exp(w_0+\sum_iw_ix_i)}
+$$
+
+
+其中：
+$$
+w_0=\ln\frac{1-\pi}{\pi} + \sum_{i}\frac{\mu_{i1}^2-\mu_{i0}^2}{2\sigma_i^2}\\
+\\
+w_i = \frac{\mu_{i0}-\mu_{i1}}{\sigma_i^2}
+$$
+这一形式满足logistic回归的一般形式，因此判别式分类器与上述高斯朴素分类器之间的关系正是logistic回归的形式
+
 
 
 
